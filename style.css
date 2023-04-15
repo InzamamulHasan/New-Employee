@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    gap:60px;
+    gap:70px;
 }
 form>div{
     display: flex;
@@ -21,7 +21,7 @@ form>div{
 }
 input{
     height: 40px;
-    width: 300px;
+    width: 320px;
     border-radius: 3px;
     background-color: black;
     color: white;
