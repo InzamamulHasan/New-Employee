@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.new_emp{
+    margin:50px;
+    margin-left:20px ;
+}
+#form{
+    margin:0px 0px 50px 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:60px;
+}
+form>div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+.sub{
+    width: 200px;
+    height: 40px;
+    margin-top: -20px;
+    border:0;
+    border-radius: 0;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
+}
+.err{
+    margin:0px 0px 30px 20px;
+}
+.add{
+    margin:0px 0px 30px 20px;
+}
+.list{
+    width: 70%;
+    margin-left: 20px;
+    color: white;
+   
+}
+
+.list>div{
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    text-align: center;
+         
+}
+.list>div>div{
+    margin-bottom: 10px;
+    border: 1px solid rgb(31, 19, 26);
+    border-radius: 10px;
+}
+.list>div>div:nth-child(1){
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.list>div>div:nth-child(2){
+    width: 20%;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    height: 50px;
+  
+}
+
+.list>div>div:nth-child(1)>div:nth-child(1){
+    width: 6%;
+}
+.list>div>div:nth-child(1)>div:nth-child(4){
+    width: 15%;
+}
+.list>div>div:nth-child(1)>div:nth-child(2){
+    width: 40%;
+    text-align: left;
+}
+.list>div>div:nth-child(1)>div:nth-child(3){
+    width: 30%;
+    text-align: left;
+}
