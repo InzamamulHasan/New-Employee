@@ -24,7 +24,8 @@ a.addEventListener("submit",function(e){
         age:ag,
     }
     arr.push(obj);
-    console.log(arr);
+    //console.log(arr);
+    a.reset();
     display(arr);
 });
 function display(arr){
